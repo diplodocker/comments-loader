@@ -1,0 +1,4 @@
+.idea
+vendor/
+phpcs.phar
+.DS_Store

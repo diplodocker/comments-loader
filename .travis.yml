@@ -1,0 +1,17 @@
+---
+dist: bionic
+
+git:
+  quiet: true
+
+language: php
+php:
+  - '7.3'
+  - '7.4'
+
+script:
+  - make environment
+  - composer install
+  - composer style-check
+  - composer security-check
+
