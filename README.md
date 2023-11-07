@@ -32,7 +32,7 @@ public function up()
 {
     Schema::create('test', function (Blueprint $table) {
         $table->bigIncrements('id');
-        $Table->nullableTimestamps();
+        $table->nullableTimestamps();
         $table->tableComment('its sample table comment');
     });
     
